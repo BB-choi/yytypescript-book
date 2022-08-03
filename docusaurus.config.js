@@ -9,7 +9,7 @@ const tsconfigForTwoslash = require(__dirname + "/tsconfig.twoslash.json");
 /** @type {import("@docusaurus/types").DocusaurusConfig} */
 (
   module.exports = {
-    title: "TypeScript入門『サバイバルTypeScript』",
+    title: "TypeScript입문『서바이벌TypeScript』한국어판",
     tagline: "Dinosaurs are cool",
     url: "https://typescriptbook.jp",
     baseUrl: "/",
@@ -59,9 +59,9 @@ const tsconfigForTwoslash = require(__dirname + "/tsconfig.twoslash.json");
       /** @type {import("@docusaurus/preset-classic").ThemeConfig} */
       ({
         navbar: {
-          title: "サバイバルTypeScript",
+          title: "서바이벌TypeScript",
           logo: {
-            alt: "サバイバルTypeScript",
+            alt: "서바이벌TypeScript",
             src: "img/logo.svg",
           },
           items: [
@@ -73,8 +73,13 @@ const tsconfigForTwoslash = require(__dirname + "/tsconfig.twoslash.json");
             // },
             // {to: '/blog', label: 'Blog', position: 'left'},
             {
-              href: "https://github.com/yytypescript/book",
+              href: "https://github.com/BB-choi/yytypescript-book",
               label: "GitHub",
+              position: "right",
+            },
+            {
+              href: "https://github.com/yytypescript/book",
+              label: "GitHub🇯🇵",
               position: "right",
             },
           ],
@@ -83,44 +88,51 @@ const tsconfigForTwoslash = require(__dirname + "/tsconfig.twoslash.json");
           style: "dark",
           links: [
             {
-              title: "サバイバルTypeScript",
+              title: "서바이벌TypeScript",
               items: [
-                { label: "第1章 はじめに", to: "/" },
-                { label: "第2章 TypeScriptのあらまし", to: "/overview" },
-                { label: "第3章 作って学ぶTypeScript", to: "/tutorials" },
-                { label: "第4章 読んで学ぶTypeScript", to: "/reference" },
-                { label: "第5章 Tips", to: "/tips" },
+                { label: "제1장 시작하기에 앞서", to: "/" },
+                { label: "제2장 TypeScript 개요", to: "/overview" },
+                {
+                  label: "제3장 만들어보며 배우는 TypeScript",
+                  to: "/tutorials",
+                },
+                { label: "제4장 읽어보며 배우는TypeScript", to: "/reference" },
+                { label: "제5장 Tips", to: "/tips" },
               ],
             },
             {
-              title: "ユーティリティ",
+              title: "유틸리티",
               items: [
-                { label: "記号とキーワード", to: "/symbols-and-keywords" },
+                { label: "기호와 키워드", to: "/symbols-and-keywords" },
                 {
-                  label: "TypeScript解読アシスタント",
+                  label: "TypeScript 해독 어시스턴트",
                   to: "/code-reading-assistant",
                 },
               ],
             },
             {
-              title: "執筆に参加したい方",
+              title: "집필 참가하기",
               items: [
-                { label: "概要", to: "/writing" },
+                { label: "개요", to: "/writing" },
                 { label: "CONTRIBUTING", to: "/writing/contributing" },
                 {
-                  label: "はじめて執筆する方へ",
+                  label: "처음 집필하기",
                   to: "/writing/getting-started",
                 },
-                { label: "執筆の流れ", to: "/writing/how-to-change" },
+                { label: "집필 흐름", to: "/writing/how-to-change" },
                 { label: "Markdown", to: "/writing/markdown" },
                 { label: "PDR", to: "/writing/pdr" },
               ],
             },
             {
-              title: "コミュニティー",
+              title: "커뮤니티",
               items: [
                 {
                   label: "GitHub",
+                  href: "https://github.com/BB-choi/yytypescript-book",
+                },
+                {
+                  label: "GitHub🇯🇵",
                   href: "https://github.com/yytypescript/book",
                 },
                 {
@@ -160,8 +172,8 @@ const tsconfigForTwoslash = require(__dirname + "/tsconfig.twoslash.json");
         },
       }),
     i18n: {
-      defaultLocale: "ja",
-      locales: ["ja"],
+      defaultLocale: "ko",
+      locales: ["ko"],
     },
     plugins: [
       "./src/components/codeReadingAssistant/docusaurusPlugin.js",

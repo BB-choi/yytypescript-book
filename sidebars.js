@@ -18,14 +18,14 @@ module.exports = {
   tutorialSidebar: [
     {
       type: "category",
-      label: "はじめに",
+      label: "시작하기에 앞서",
       collapsed: true,
       link: { type: "doc", id: "README" },
       items: ["license"],
     },
     {
       type: "category",
-      label: "TypeScriptのあらまし",
+      label: "TypeScript 개요",
       collapsed: false,
       link: { type: "doc", id: "overview/README" },
       items: [
@@ -42,7 +42,7 @@ module.exports = {
     },
     {
       type: "category",
-      label: "作って学ぶTypeScript",
+      label: "만들어보며 배우는 TypeScript",
       collapsed: false,
       link: { type: "doc", id: "tutorials/README" },
       items: [
@@ -59,13 +59,13 @@ module.exports = {
     },
     {
       type: "category",
-      label: "読んで学ぶTypeScript",
+      label: "읽어보며 배우는TypeScript",
       collapsed: false,
       link: { type: "doc", id: "reference/README" },
       items: [
         {
           type: "category",
-          label: "値・型・変数",
+          label: "식・형・변수",
           link: {
             type: "generated-index",
             slug: "/reference/values-types-variables",
@@ -80,7 +80,7 @@ module.exports = {
             "reference/values-types-variables/boolean",
             {
               type: "category",
-              label: "数値型",
+              label: "number type",
               link: {
                 type: "doc",
                 id: "reference/values-types-variables/number/README",
@@ -101,7 +101,7 @@ module.exports = {
             "reference/values-types-variables/any",
             {
               type: "category",
-              label: "オブジェクト",
+              label: "Object",
               link: {
                 type: "generated-index",
                 slug: "reference/values-types-variables/object",
@@ -127,7 +127,7 @@ module.exports = {
             "reference/values-types-variables/structural-subtyping",
             {
               type: "category",
-              label: "配列",
+              label: "배열",
               link: {
                 type: "generated-index",
                 slug: "reference/values-types-variables/array",
@@ -148,7 +148,7 @@ module.exports = {
             "reference/values-types-variables/tuple",
             {
               type: "category",
-              label: "列挙型",
+              label: "열거형",
               link: {
                 type: "doc",
                 id: "reference/values-types-variables/enum/README",
@@ -171,7 +171,7 @@ module.exports = {
         },
         {
           type: "category",
-          label: "文",
+          label: "문",
           link: {
             type: "generated-index",
             slug: "reference/statements",
@@ -193,7 +193,7 @@ module.exports = {
         },
         {
           type: "category",
-          label: "関数",
+          label: "함수",
           link: {
             type: "generated-index",
             slug: "reference/functions",
@@ -225,7 +225,7 @@ module.exports = {
         },
         {
           type: "category",
-          label: "🚧非同期処理",
+          label: "🚧비동기 처리",
           link: {
             type: "doc",
             id: "reference/asynchronous/README",
@@ -239,7 +239,7 @@ module.exports = {
         "reference/promise-async-await",
         {
           type: "category",
-          label: "オブジェクト指向",
+          label: "객체지향",
           link: {
             type: "generated-index",
             slug: "reference/object-oriented",
@@ -247,7 +247,7 @@ module.exports = {
           items: [
             {
               type: "category",
-              label: "クラス",
+              label: "클래스",
               link: {
                 type: "doc",
                 id: "reference/object-oriented/class/README",
@@ -273,7 +273,7 @@ module.exports = {
             },
             {
               type: "category",
-              label: "🚧インターフェース",
+              label: "🚧인터페이스",
               link: {
                 type: "doc",
                 id: "reference/object-oriented/interface/README",
@@ -292,7 +292,7 @@ module.exports = {
         },
         {
           type: "category",
-          label: "組み込みAPI",
+          label: "내장 API",
           link: {
             type: "generated-index",
             slug: "reference/builtin-api",
@@ -309,7 +309,7 @@ module.exports = {
         "reference/single-process-and-callback",
         {
           type: "category",
-          label: "型の再利用",
+          label: "Type 재사용",
           link: {
             type: "doc",
             id: "reference/type-reuse/README",
@@ -319,7 +319,7 @@ module.exports = {
             "reference/type-reuse/keyof-type-operator",
             {
               type: "category",
-              label: "ユーティリティ型",
+              label: "유틸리티 타입",
               link: {
                 type: "generated-index",
                 slug: "reference/type-reuse/utility-types",
@@ -346,7 +346,7 @@ module.exports = {
         },
         {
           type: "category",
-          label: "ジェネリクス",
+          label: "제네릭",
           link: {
             type: "doc",
             id: "reference/generics/README",
