@@ -2,7 +2,7 @@
   "name": "book",
   "version": "1.0.0",
   "private": true,
-  "description": "サバイバルTypeScript 〜実務で使うなら最低限ここだけはおさえておきたいTypeScript入門〜",
+  "description": "TypeScript입문『서바이벌TypeScript』한국어판 : 실무에서 사용한다면, 최소한 이 만큼은 알아 두자!",
   "keywords": [
     "typescript"
   ],

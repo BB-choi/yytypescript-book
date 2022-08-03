@@ -10,14 +10,15 @@ const tsconfigForTwoslash = require(__dirname + "/tsconfig.twoslash.json");
 (
   module.exports = {
     title: "TypeScript입문『서바이벌TypeScript』한국어판",
-    tagline: "Dinosaurs are cool",
+    tagline:
+      "TypeScript입문『서바이벌TypeScript』한국어판 : 실무에서 사용한다면, 최소한 이 만큼은 알아 두자!",
     url: "https://typescriptbook.jp",
     baseUrl: "/",
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
     favicon: "img/logo.svg",
-    organizationName: "yytypescript", // Usually your GitHub org/user name.
-    projectName: "book", // Usually your repo name.
+    organizationName: "BB-choi", // Usually your GitHub org/user name.
+    projectName: "yytypescript-book", // Usually your repo name.
     presets: [
       [
         "@docusaurus/preset-classic",
@@ -40,10 +41,10 @@ const tsconfigForTwoslash = require(__dirname + "/tsconfig.twoslash.json");
           theme: {
             customCss: require.resolve("./src/css/custom.css"),
           },
-          googleAnalytics: {
-            trackingID: "UA-43572771-14",
-            anonymizeIP: true,
-          },
+          // googleAnalytics: {
+          //   trackingID: "UA-43572771-14",
+          //   anonymizeIP: true,
+          // },
         }),
       ],
       [
@@ -164,12 +165,12 @@ const tsconfigForTwoslash = require(__dirname + "/tsconfig.twoslash.json");
             "jsx",
           ],
         },
-        algolia: {
-          appId: "5N3JHNPACB",
-          apiKey: "99655de886960eadb0eca65591529110",
-          indexName: "typescriptbook",
-          contextualSearch: true,
-        },
+        // algolia: {
+        //   appId: "5N3JHNPACB",
+        //   apiKey: "99655de886960eadb0eca65591529110",
+        //   indexName: "typescriptbook",
+        //   contextualSearch: true,
+        // },
       }),
     i18n: {
       defaultLocale: "ko",
