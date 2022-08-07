@@ -9,12 +9,21 @@ sidebar_label: 이 책의 개요
 <!-- # はじめに -->
 
 <head>
-  <title>TypeScript입문『서바이벌TypeScript』한국어판 : 실무에서 사용한다면, 최소한 이 만큼은 알아 두자!</title>
+  <title>TypeScript입문 "서바이벌TypeScript" 한국어판 : 실무에서 사용한다면, 최소한 이 만큼은 알아 두자!</title>
 </head>
+
+[<head> <title>typescript入門『サバイバルtypescript』〜実務で使うなら最低限ここだけはおさえておきたいこと〜</title> </head>]: #
 
 <!-- markdownlint-disable MD033 -->
 
-<iframe src="https://ghbtns.com/github-btn.html?user=yytypescript&repo=book&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+<ul>
+  <li>
+    원문(日文) : <iframe src="https://ghbtns.com/github-btn.html?user=yytypescript&repo=book&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="서바이벌TypeScript 원본 Repository"></iframe>
+  </li>
+  <li>
+    한국어판 : <iframe src="https://ghbtns.com/github-btn.html?user=BB-choi&repo=yytypescript-book&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="서바이벌TypeScript 한국어판 Repository"></iframe>
+  </li>
+</ul>
 
 <!-- markdownlint-restore -->
 
@@ -124,10 +133,10 @@ sidebar_label: 이 책의 개요
 - takezoux2
 - \_rena_h
 
-## 계속 업데이트
+## 계속적 업데이트
 
 <!-- ## 継続的アップデート -->
 
-이 책은 계속 업데이트 되고 있습니다.
+이 책은 계속적으로 업데이트 되고 있습니다.
 
 <!-- 本書は継続的にアップデートされていきます。 -->
