@@ -10,8 +10,6 @@ sidebar_label: 이 책의 개요
 
 <head>
   <title>TypeScript입문『서바이벌TypeScript』한국어판 : 실무에서 사용한다면, 최소한 이 만큼은 알아 두자!</title>
-  <!--   <title>TypeScript入門『サバイバルTypeScript』〜実務で使うなら最低限ここだけはおさえておきたいこと〜</title>
- -->
 </head>
 
 <!-- markdownlint-disable MD033 -->
@@ -24,7 +22,7 @@ sidebar_label: 이 책의 개요
 
 <!-- ## これはどのような本か？ -->
 
-이 책의 목표는 독자가 TypeScript를 곧바로 실무에서 이용할 수 있도록, 가장 빠른 길로 독자를 인도하는 것입니다. 이 책은 TypeScript를 총망라한 문서는 아니므로 실무에서 그다지 사용되지 않는 TypeScript의 기능은 다루지 않습니다. 이 책은 다루는 내용을 자주 사용되는 기능으로 줄이고 줄여 "실무에서 TypeScript를 사용한다면, 이 만큼은 알아두자", "이 정도 알아둔다면, 실무에서 살아남을 수 있다(=서바이벌!)"라는 관점에서 집필 중인 책입니다.
+이 책의 목표는 독자가 TypeScript를 곧바로 실무에서 이용할 수 있도록, 가장 빠른 길로 독자를 인도하는 것입니다. 이 책은 TypeScript를 총망라한 문서는 아니므로 실무에서 그다지 사용되지 않는 TypeScript의 기능은 다루지 않습니다. 이 책은 다루는 내용을 '자주 사용되는 기능'으로 줄이고 줄여 "실무에서 TypeScript를 사용한다면, 이 만큼은 알아두자", "이 정도 알아둔다면, 실무에서 살아남을 수 있다(=서바이벌!)"라는 관점에서 집필 중인 책입니다.
 
 <!-- 本書の目標は、本読者がTypeScriptをすぐに実務で利用できるよう、最短ルートに読者を導く一冊になることです。本書は、TypeScriptの網羅的なドキュメントではありません。逆に、実務であまり使わないTypeScriptの機能は割愛します。扱う内容は、頻出する機能にしぼりにしぼって、「実務でTypeScriptを使うなら、ここだけはおさえておこう」「ここだけはおさえておけば、実務で死なない(=サバイバルできる)」という観点で執筆しています。 -->
 
@@ -40,8 +38,8 @@ sidebar_label: 이 책의 개요
 
 <!-- 本書は、プログラミング経験はあるが、これからTypeScriptをはじめる人、もしくは、始めたばかりという人を対象にしています。たとえば、次のような属性のプログラマを想定しています。 -->
 
-1. 주로 서버사이드 프로그래밍(PHP나 Ruby, Java 등)을 하고 있지만, 프론트엔드도 담당하게 되었다.
-2. JavaScript 경험은 있지만, 그렇게 JavaScript에 정통하지는 않아 TypeScript와 병행 학습하고 싶다.
+1. 주로 서버사이드 프로그래밍(PHP, Ruby, Java 등)을 하고 있지만, 프론트엔드도 담당하게 되었다.
+2. JavaScript 경험은 있지만, JavaScript에 정통하지는 않아 TypeScript와 병행 학습하고 싶다.
 3. Ruby나 Python등의 동적타이핑(Dynamic typing) 언어를 주로 다뤄왔고, Type을 신경써서 다루지 않았기 때문에 Type 시스템에 대해 배울 필요를 느끼고 있다.
 
 <!-- 1. 主としてサーバーサイドのプログラミング(PHPやRuby、Javaなど)をしているが、フロントエンドも担当することになった。
@@ -60,15 +58,15 @@ sidebar_label: 이 책의 개요
 
 <!-- ## 本書の構成 -->
 
-제2장 "TypeScript 개요"에서는, TypeScript의 개요를 다룸과 동시에, TypeScript의 장점과 TypeScript가 JavaScript 생태계에서 어떤 위치에 있는지 나타내 봄으로써, 전체를 그릴 수 있게 됩니다. TypeScript란 무엇인가를 상세히 알게 되거나, 독저가 동료나 소속한 팀에게 TypeScript를 PR할 수 있을 정도의 정보를 제공합니다. TypeScript의 역사, 사상, 철학을 알게 함으로써 TypeScript가 어떤 점에서 진가를 발휘하는지 학습합니다. TypeScript를 왜 사용해야 하는가? TypeScript의 이점은 무엇인가? TypeScript와 JavaScript는 어떤 관계인가?와 같은 의문에 대해 답을 얻어 갈 수 있습니다.
+제2장 "TypeScript 개요"에서는, TypeScript의 개요를 다룸과 동시에, TypeScript의 장점과 TypeScript가 JavaScript 생태계에서 어떤 위치에 있는지 나타내 봄으로써, 전체를 그릴 수 있게 됩니다. TypeScript란 무엇인가를 상세히 알게 되거나, 독저가 동료나 소속한 팀에게 TypeScript를 PR할 수 있을 정도의 정보를 제공합니다. TypeScript의 역사, 사상, 철학에 대한 배움을 통하여 TypeScript가 어떤 점에서 진가를 발휘하는지 학습합니다. TypeScript를 왜 사용해야 하는가? TypeScript의 이점은 무엇인가? TypeScript와 JavaScript는 어떤 관계인가?와 같은 의문에 대해 답을 얻어 갈 수 있습니다.
 
 <!-- 第2章「TypeScriptのあらまし」では、TypeScriptの概要について触れます。同時に、TypeScriptの良さや、TypeScriptがJavaScriptエコシステムでどういった立ち位置にあるのかを示すことで、全体像を知っていただきます。TypeScriptとは何なのか詳しく知ってもらったり、読者が同僚や属するチームにTypeScriptをPRできるような情報を提供します。TypeScriptの歴史、思想、哲学を知ってもらうことで、どのようなところでTypeScriptがその本領を発揮するのかを学びます。TypeScriptをなぜ使うべきなのか？TypeScriptのアドバンテージは何なのか？TypeScriptとJavaScriptはどのような関係なのか？といった疑問に答えていきます。 -->
 
-제3장 "제3장 만들어보며 배우는 TypeScript"에서는, 다양한 애플리케이션을 TypeScript로 구현하는 워크숍 형식의 설명을 통해, TypeScript 그 자체에 대해서는 가볍게 배우면서, TypeScript를 사용한 개발 흐름을 느껴 보실 수 있습니다. 이 워크숍에서는 실무 개발에 조금 더 가까워 질 수 있도록, TypeScript뿐만 아니라, 프론트엔드 프레임워크인 React, 테스트 프레임워크인 Jest, REST API에 의한 CRUD 조작이나 WebSocket을 사용한 백엔드 통신에 대해서도 다룹니다. 이 장에서는 TypeScript의 기능이나 작성 방법에 대해서 최소한으로 설명하지만, 상세한 TypeScript의 기능 설명은 제4장에서 다룰 것입니다.
+제3장 "제3장 만들어보며 배우는 TypeScript"에서는, 다양한 애플리케이션을 TypeScript로 구현하는 워크숍 형식의 설명을 통해, TypeScript 그 자체에 대해서는 가볍게 배우면서, TypeScript를 사용한 개발 흐름을 느껴 보실 수 있습니다. 이 워크숍에서는 실무 개발에 조금 더 가까워 질 수 있도록, TypeScript뿐만 아니라 프론트엔드 프레임워크인 React, 테스트 프레임워크인 Jest, REST API에 의한 CRUD 조작이나 WebSocket을 사용한 백엔드 통신에 대해서도 다룹니다. 이 장에서는 TypeScript의 기능이나 작성 방법에 대해서는 최소한으로 설명하고, 상세한 TypeScript의 기능 설명은 제4장에서 다룰 것입니다.
 
 <!-- 第3章「作って学ぶTypeScript」では、さまざまなアプリケーションをTypeScriptで実装するワークショップ形式の解説を通じて、TypeScriptそのものについては軽めに学びながら、TypeScriptを用いた開発の流れを感じ取って頂きます。このワークショップでは、実務の開発により近づけるよう、TypeScriptだけでなく、フロントエンドフレームワークのReact、テストフレームワークのJest、REST APIによるCRUD操作やWebSocketを使ったバックエンドとの通信についても扱って行きます。本章でもTypeScriptの機能や書き方について必要最低限説明しますが、詳しい言語機能の説明は第4章で扱います。 -->
 
-제4장 "제4장 읽어보며 배우는TypeScript"에서는, TypeScript의 기능을 하나하나 설명할 것입니다. 모든 기능의 레퍼런스라기보다는, 실제 개발에서 빈번하게 사용하는 것으로 한정하여 이것만은 알아두어야 할 기능을 중심으로 다룰 것입니다. TypeScript 학습자는 JavaScript도 병행하여 학습하는 경우가 많으므로 JavaScript에 대한 설명도 섞어가며 설명할 것입니다.
+제4장 "제4장 읽어보며 배우는TypeScript"에서는, TypeScript의 기능을 하나하나 설명할 것입니다. 모든 기능의 레퍼런스라기보다는, 실제 개발에서 빈번하게 사용하는 것으로 한정하여 '이것만은 알아두어야 할 기능'을 중심으로 다룰 것입니다. TypeScript 학습자는 JavaScript도 병행하여 학습하는 경우가 많으므로 JavaScript에 대한 설명도 섞어가며 설명할 것입니다.
 
 <!-- 第4章「読んで学ぶTypeScript」では、TypeScriptの言語機能をひとつひとつ解説します。すべての機能のリファレンスというよりは、実際の開発で頻繁に使用するものに限定し、これだけはおさえておきたい機能を中心に取り上げていきます。TypeScript学習者はJavaScriptも並行して学習することが多いので、JavaScriptについての説明も織り交ぜながら解説します。 -->
 
