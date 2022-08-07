@@ -79,8 +79,8 @@ const tsconfigForTwoslash = require(__dirname + "/tsconfig.twoslash.json");
               position: "right",
             },
             {
-              href: "https://github.com/yytypescript/book",
-              label: "GitHub🇯🇵",
+              href: "https://typescriptbook.jp/",
+              label: "サバイバルTypeScript",
               position: "right",
             },
           ],
